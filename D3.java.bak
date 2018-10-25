@@ -1,0 +1,14 @@
+class D3
+{
+	public static void main(String[] args) 
+	{
+		static int x=test();
+		static int y=20;
+		static int test()
+		{
+		return y;
+		}
+		System.out.println(x);
+		System.out.println(y);
+	}
+}
